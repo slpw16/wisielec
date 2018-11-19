@@ -1,0 +1,108 @@
+* {
+  padding:0; margin:0; box-sizing: border-box;
+}
+
+body {
+  background: rgba(235, 239, 240, 0.932);
+}
+.container-fluid {
+  background: rgba(235, 239, 240, 0.932);
+  text-align: center;
+  min-height: 100vh;
+}
+
+.mainGame {
+  padding-top: 50px;
+  text-align: center;
+}
+
+.mainGame .startButton {
+  position: absolute;
+    background: none;
+    border: 4px solid black;
+    border-radius: 40px;
+    color: black;
+    font-weight: bold;
+    font-size: 50px;
+    margin-top: 2%;
+    transition-duration: 500ms;
+    transition-property: all;
+    visibility: hidden;
+    margin-bottom: 50px;
+}
+
+.mainGame .startButton:hover {
+    background: sandybrown;
+ 
+}
+
+.contentGame {
+  margin-top: 0px;
+}
+
+.contentGame .score {
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+  vertical-align: middle;
+}
+
+.contentGame .score .category {
+  background: white;
+  border: 1px solid black;
+  padding: 5px;
+  min-width: 50px;
+  margin-left: 30px;
+}
+
+.contentGame .score .move {
+  margin-left: 10px;
+  font-weight: bold;
+}
+
+.contentGame .word {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  height: 100px;
+  font-size: 50px;
+}
+
+.contentGame .word .letter {
+  flex-direction: column;
+  justify-content: center;
+  min-width: 100px;
+  margin-left: 35px;
+  padding-bottom: 10px;
+  border-bottom: 3px solid rgb(179, 178, 178);
+}
+
+.contentGame .word .comma {
+  margin-top: 30px;
+  margin-left: 20px;
+}
+
+.sectionKeyboard {
+  margin-top: 100px;
+  padding-bottom: 300px;
+}
+
+.sectionKeyboard .letterRow {
+  display: flex;
+  justify-content: center;
+}
+
+.sectionKeyboard .letterRow .letter {
+  justify-content: center;
+  flex-grow: unset;
+  font-size: 25px;
+  width: 50px;
+  height: 50px;
+  margin-left: 35px;
+  margin-top: 15px;
+  border: 2px solid black;
+  padding: 5px;
+  border-radius: 5px;
+  text-align: center;
+}
+
